@@ -11,13 +11,12 @@ This repo contains the source code and reproducing guide of Fed-FuseZO. This res
 
 - Three parameter-efficient fine-tuning (PEFT) paradigms: LoRA, Prefix tuning, and Prompt tuning.
 
-### Core Innovation: An information-guided hybrid optimization mechanism that adaptively partitions layers into First-Order (FO) and Zeroth-Order (ZO) update streams based on layer-wise sensitivity.
+- Core Innovation: An information-guided hybrid optimization mechanism that adaptively partitions layers into First-Order (FO) and Zeroth-Order (ZO) update streams based on layer-wise sensitivity.
 
 ## 2) Project Structure
 This project is structured around the adaptive hybrid optimization for various tasks & models & PEFT schemes. Core logic is implemented in fed-fuse/optimizer.py and fed-fuse/trainer.py. Task configurations are defined in fed-fuse/tasks.py. The main entry point is fed-fuse/run.py.
 
-'''Plaintext
-.
+```text
 ├── fed-fuse
 │   ├── modeling_opt
 │   ├── modeling_llama
@@ -27,13 +26,12 @@ This project is structured around the adaptive hybrid optimization for various t
 │   ├── run.py               # Main entry point for federated training
 │   ├── tasks.py             # Data loading and task formatting
 │   ├── utils.py
-│   ├── sweep                # Hyperparameter sweeps
-│   │   ├── SST2_opt-1.3b
-│   │   ├── Copa_llama-2-3b
-│   │   ├── PiQA_gptj-6b
-│   │   └── ...
+│   └── sweep                # Hyperparameter sweeps
+│       ├── SST2_opt-1.3b
+│       ├── Copa_llama-2-3b
+│       ├── PiQA_gptj-6b
+│       └── ...
 ├── environment.yml
-'''
 
 3) Getting Started
 Ensure you have a compatible environment:
