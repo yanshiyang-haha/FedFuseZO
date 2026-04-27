@@ -37,16 +37,16 @@ This project is structured around the adaptive hybrid optimization for various t
 ## 3) Getting Started
 Ensure you have a compatible environment:
 
-Bash
+```python
 conda create -n fedfuse python=3.10
 conda activate fedfuse
 pip install -r requirements.txt
+```
 ## 4) Reproducing Results
 We provide detailed hyperparameter settings in sweeps/. The configuration for tuning a MODEL on TASK under SCHEME with Fed-FuseZO is organized as fed-fuse/sweeps/TASK_MODEL/SCHEME.yml.
 
 Example: Running the federated hybrid optimization for LLaMA-2-3B on the COPA task with LoRA:
 
-Bash
 ## Start the sweep
 wandb sweep fed-fuse/sweeps/Copa_llama-2-3b/lora_fedfuse.yml
 
