@@ -1,0 +1,138 @@
+2025-09-18 22:26:49 INFO Running runs: []
+2025-09-18 22:26:50 INFO Agent received command: run
+2025-09-18 22:26:50 INFO Agent starting run with config:
+	learning_rate: 1e-5
+	weight_decay: 0
+	zo_eps: 1e-2
+2025-09-18 22:26:50 INFO About to run command: python run.py --learning_rate=1e-5 --weight_decay=0 --zo_eps=1e-2 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-18 22:26:55 INFO Running runs: ['z5ctvxij']
+2025-09-18 22:28:11 INFO Cleaning up finished run: z5ctvxij
+2025-09-18 22:28:20 INFO Agent received command: run
+2025-09-18 22:28:20 INFO Agent starting run with config:
+	learning_rate: 1e-5
+	weight_decay: 0
+	zo_eps: 1e-3
+2025-09-18 22:28:20 INFO About to run command: python run.py --learning_rate=1e-5 --weight_decay=0 --zo_eps=1e-3 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-18 22:28:25 INFO Running runs: ['tkygkkfx']
+2025-09-18 22:29:40 INFO Cleaning up finished run: tkygkkfx
+2025-09-18 22:29:42 INFO Agent received command: run
+2025-09-18 22:29:42 INFO Agent starting run with config:
+	learning_rate: 1e-5
+	weight_decay: 0
+	zo_eps: 1e-4
+2025-09-18 22:29:42 INFO About to run command: python run.py --learning_rate=1e-5 --weight_decay=0 --zo_eps=1e-4 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-18 22:29:47 INFO Running runs: ['6uf0jvv4']
+2025-09-18 22:31:08 INFO Cleaning up finished run: 6uf0jvv4
+2025-09-18 22:31:08 INFO Agent received command: run
+2025-09-18 22:31:08 INFO Agent starting run with config:
+	learning_rate: 1e-6
+	weight_decay: 0
+	zo_eps: 1e-2
+2025-09-18 22:31:08 INFO About to run command: python run.py --learning_rate=1e-6 --weight_decay=0 --zo_eps=1e-2 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-18 22:31:13 INFO Running runs: ['xbb61txv']
+2025-09-19 01:10:53 INFO Running runs: []
+2025-09-19 01:10:54 INFO Agent received command: run
+2025-09-19 01:10:54 INFO Agent starting run with config:
+	learning_rate: 1e-5
+	weight_decay: 0
+	zo_eps: 1e-2
+2025-09-19 01:10:54 INFO About to run command: python run.py --learning_rate=1e-5 --weight_decay=0 --zo_eps=1e-2 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:10:59 INFO Running runs: ['5bkwze5p']
+2025-09-19 01:10:59 INFO Cleaning up finished run: 5bkwze5p
+2025-09-19 01:10:59 INFO Agent received command: run
+2025-09-19 01:10:59 INFO Agent starting run with config:
+	learning_rate: 1e-5
+	weight_decay: 0
+	zo_eps: 1e-3
+2025-09-19 01:10:59 INFO About to run command: python run.py --learning_rate=1e-5 --weight_decay=0 --zo_eps=1e-3 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:11:04 INFO Running runs: ['lgf5vma4']
+2025-09-19 01:11:04 INFO Cleaning up finished run: lgf5vma4
+2025-09-19 01:11:05 INFO Agent received command: run
+2025-09-19 01:11:05 INFO Agent starting run with config:
+	learning_rate: 1e-5
+	weight_decay: 0
+	zo_eps: 1e-4
+2025-09-19 01:11:05 INFO About to run command: python run.py --learning_rate=1e-5 --weight_decay=0 --zo_eps=1e-4 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:11:10 INFO Running runs: ['5tx04m93']
+2025-09-19 01:11:10 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-09-19 01:11:10 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-09-19 01:22:54 INFO Running runs: []
+2025-09-19 01:22:54 INFO Agent received command: run
+2025-09-19 01:22:54 INFO Agent starting run with config:
+	learning_rate: 1e-6
+	weight_decay: 0
+	zo_eps: 1e-2
+2025-09-19 01:22:54 INFO About to run command: python run.py --learning_rate=1e-6 --weight_decay=0 --zo_eps=1e-2 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:22:59 INFO Running runs: ['supa0qvo']
+2025-09-19 01:22:59 INFO Cleaning up finished run: supa0qvo
+2025-09-19 01:23:00 INFO Agent received command: run
+2025-09-19 01:23:00 INFO Agent starting run with config:
+	learning_rate: 1e-6
+	weight_decay: 0
+	zo_eps: 1e-3
+2025-09-19 01:23:00 INFO About to run command: python run.py --learning_rate=1e-6 --weight_decay=0 --zo_eps=1e-3 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:23:05 INFO Running runs: ['bd09buwu']
+2025-09-19 01:23:05 INFO Cleaning up finished run: bd09buwu
+2025-09-19 01:23:05 INFO Agent received command: run
+2025-09-19 01:23:05 INFO Agent starting run with config:
+	learning_rate: 1e-6
+	weight_decay: 0
+	zo_eps: 1e-4
+2025-09-19 01:23:05 INFO About to run command: python run.py --learning_rate=1e-6 --weight_decay=0 --zo_eps=1e-4 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:23:10 INFO Running runs: ['x6zwlskq']
+2025-09-19 01:23:10 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-09-19 01:23:10 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-09-19 01:25:02 INFO Running runs: []
+2025-09-19 01:25:02 INFO Agent received command: run
+2025-09-19 01:25:02 INFO Agent starting run with config:
+	learning_rate: 1e-7
+	weight_decay: 0
+	zo_eps: 1e-2
+2025-09-19 01:25:02 INFO About to run command: python run.py --learning_rate=1e-7 --weight_decay=0 --zo_eps=1e-2 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:25:07 INFO Running runs: ['hdg4did2']
+2025-09-19 01:25:07 INFO Cleaning up finished run: hdg4did2
+2025-09-19 01:25:08 INFO Agent received command: run
+2025-09-19 01:25:08 INFO Agent starting run with config:
+	learning_rate: 1e-7
+	weight_decay: 0
+	zo_eps: 1e-3
+2025-09-19 01:25:08 INFO About to run command: python run.py --learning_rate=1e-7 --weight_decay=0 --zo_eps=1e-3 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:25:13 INFO Running runs: ['ywwkeu7c']
+2025-09-19 01:25:13 INFO Cleaning up finished run: ywwkeu7c
+2025-09-19 01:25:13 INFO Agent received command: run
+2025-09-19 01:25:13 INFO Agent starting run with config:
+	learning_rate: 1e-7
+	weight_decay: 0
+	zo_eps: 1e-4
+2025-09-19 01:25:13 INFO About to run command: python run.py --learning_rate=1e-7 --weight_decay=0 --zo_eps=1e-4 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:25:18 INFO Running runs: ['zq7yvi9i']
+2025-09-19 01:25:18 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-09-19 01:25:18 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-09-19 01:30:19 INFO Running runs: []
+2025-09-19 01:30:20 INFO Agent received command: run
+2025-09-19 01:30:20 INFO Agent starting run with config:
+	learning_rate: 1e-8
+	weight_decay: 0
+	zo_eps: 1e-2
+2025-09-19 01:30:20 INFO About to run command: python run.py --learning_rate=1e-8 --weight_decay=0 --zo_eps=1e-2 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:30:25 INFO Running runs: ['8f1k6chx']
+2025-09-19 01:30:25 INFO Cleaning up finished run: 8f1k6chx
+2025-09-19 01:30:26 INFO Agent received command: run
+2025-09-19 01:30:26 INFO Agent starting run with config:
+	learning_rate: 1e-8
+	weight_decay: 0
+	zo_eps: 1e-3
+2025-09-19 01:30:26 INFO About to run command: python run.py --learning_rate=1e-8 --weight_decay=0 --zo_eps=1e-3 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:30:31 INFO Running runs: ['h6npkpqr']
+2025-09-19 01:30:31 INFO Cleaning up finished run: h6npkpqr
+2025-09-19 01:30:31 INFO Agent received command: run
+2025-09-19 01:30:31 INFO Agent starting run with config:
+	learning_rate: 1e-8
+	weight_decay: 0
+	zo_eps: 1e-4
+2025-09-19 01:30:31 INFO About to run command: python run.py --learning_rate=1e-8 --weight_decay=0 --zo_eps=1e-4 --model_name=meta-llama/Llama-2-7b-hf --task_name=Copa --output_dir=result/Copa-ft-$TAG --num_train_epochs=5 --no_reparam --per_device_train_batch_size=16 --load_best_model_at_end --evaluation_strategy=steps --save_strategy=steps --save_total_limit=1 --eval_steps=1000 --max_steps=20000 --logging_steps=10 --num_eval=1000 --num_train=1000 --num_dev=100 --train_as_classification=False --perturbation_mode=two_side --trainer=zo_sgd --train_set_seed=0 --lr_scheduler_type=constant --eval_steps=500 --save_steps=500 --load_float16 --save_model
+2025-09-19 01:30:36 INFO Running runs: ['rlug7y4h']
+2025-09-19 01:30:42 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-09-19 01:30:42 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-09-19 01:33:35 INFO Running runs: []
+2025-09-19 01:54:53 INFO Running runs: []
