@@ -3,17 +3,17 @@
 ## 1) Overview
 This repo contains the source code and reproducing guide of Fed-FuseZO. This research introduces an information-guided hybrid optimization framework designed to tackle the "memory wall" in federated fine-tuning of Large Language Models (LLMs). Our study formalizes the memory-variance dilemma by introducing a layer-wise ZO-cost-adjusted information score, which quantifies the trade-off between gradient information gain (Fisher Information) and geometric sensitivity (Curvature). Fed-FuseZO automatically determines the optimal FO/ZO boundary using a Kneedle-based detection mechanism, enabling efficient, memory-constrained federated training without heuristic ratio tuning.
 
-This project covers the following scopes:
+### This project covers the following scopes:
 
-Three LLM families: OPT-1.3B, LLAMA-2-3B, and GPT-J-6B.
+- Three LLM families: OPT-1.3B, LLAMA-2-3B, and GPT-J-6B.
 
-Three task complexities: SST-2 (Classification), COPA (Reasoning), and PiQA (Commonsense Reasoning).
+- Three task complexities: SST-2 (Classification), COPA (Reasoning), and PiQA (Commonsense Reasoning).
 
-Three parameter-efficient fine-tuning (PEFT) paradigms: LoRA, Prefix tuning, and Prompt tuning.
+- Three parameter-efficient fine-tuning (PEFT) paradigms: LoRA, Prefix tuning, and Prompt tuning.
 
-Core Innovation: An information-guided hybrid optimization mechanism that adaptively partitions layers into First-Order (FO) and Zeroth-Order (ZO) update streams based on layer-wise sensitivity.
+### Core Innovation: An information-guided hybrid optimization mechanism that adaptively partitions layers into First-Order (FO) and Zeroth-Order (ZO) update streams based on layer-wise sensitivity.
 
-2) Project Structure
+## 2) Project Structure
 This project is structured around the adaptive hybrid optimization for various tasks & models & PEFT schemes. Core logic is implemented in fed-fuse/optimizer.py and fed-fuse/trainer.py. Task configurations are defined in fed-fuse/tasks.py. The main entry point is fed-fuse/run.py.
 
 '''Plaintext
