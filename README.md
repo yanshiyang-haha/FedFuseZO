@@ -50,7 +50,7 @@ Example: Running the federated hybrid optimization for LLaMA-2-3B on the COPA ta
 ## Start the sweep
 wandb sweep fed-fuse/sweeps/Copa_llama-2-3b/lora_fedfuse.yml
 
-## Run the agent
+## Run the results
 wandb agent <your-sweep-id>
 Extended Usage:
 
