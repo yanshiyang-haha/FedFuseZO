@@ -32,9 +32,9 @@ This project is structured around the adaptive hybrid optimization for various t
 │       ├── PiQA_gptj-6b
 │       └── ...
 ├── environment.yml
-'''
+```
 
-3) Getting Started
+## 3) Getting Started
 Ensure you have a compatible environment:
 
 Bash
