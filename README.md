@@ -58,8 +58,9 @@ Custom Memory Budget: You can adjust the memory constraint via the --memory_budg
 
 Information-Guided Logic: To adjust the sensitivity (Fisher Information vs. Curvature), modify the hyperparameters in optimizer.py or pass them via command line:
 
-Bash
+```python
 python run.py --model_name=meta-llama/Llama-2-3b-hf --task_name=COPA \
---trainer=fed_fuse --alpha=0.5 --rho_min=0.5 --rho_max=1.0 \
---use_kneedle=True --per_device_train_batch_size=8
+--trainer=zo_sgd --alpha=0.5 --rho_min=0.5 --rho_max=1.0 \
+--use_hybrid=True --per_device_train_batch_size=8
+```
 Gradient Pruning & Sparsity: If you wish to extend the method with gradient sparsity, utilize the --gradient_sparsity flag to enable additional variance reduction in the ZO update phase.
