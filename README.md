@@ -1,4 +1,4 @@
-##Fed-FuseZO: Information-Guided Hybrid Optimization for Memory-Constrained Federated LLM Fine-Tuning
+# Fed-FuseZO: Information-Guided Hybrid Optimization for Memory-Constrained Federated LLM Fine-Tuning
 
 1) Overview
 This repo contains the source code and reproducing guide of Fed-FuseZO. This research introduces an information-guided hybrid optimization framework designed to tackle the "memory wall" in federated fine-tuning of Large Language Models (LLMs). Our study formalizes the memory-variance dilemma by introducing a layer-wise ZO-cost-adjusted information score, which quantifies the trade-off between gradient information gain (Fisher Information) and geometric sensitivity (Curvature). Fed-FuseZO automatically determines the optimal FO/ZO boundary using a Kneedle-based detection mechanism, enabling efficient, memory-constrained federated training without heuristic ratio tuning.
@@ -33,6 +33,7 @@ Plaintext
 │   │   ├── PiQA_gptj-6b
 │   │   └── ...
 ├── environment.yml
+
 3) Getting Started
 Ensure you have a compatible environment:
 
@@ -46,10 +47,10 @@ We provide detailed hyperparameter settings in sweeps/. The configuration for tu
 Example: Running the federated hybrid optimization for LLaMA-2-3B on the COPA task with LoRA:
 
 Bash
-# Start the sweep
+## Start the sweep
 wandb sweep fed-fuse/sweeps/Copa_llama-2-3b/lora_fedfuse.yml
 
-# Run the agent
+## Run the agent
 wandb agent <your-sweep-id>
 Extended Usage:
 
